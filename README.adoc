@@ -1,0 +1,11 @@
+= (Re)Build a servo from parts
+stolen from an SG90 servo
+
+
+
+== SG-90 modification
+
+Remove the PCB from an SG-90.
+Breakout the motor wires and pot wires.
+
+

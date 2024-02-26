@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sg90")(type "KiCad")(uri "${KIPRJMOD}/sg90.pretty")(options "")(descr ""))
+)
