@@ -8,4 +8,9 @@ stolen from an SG90 servo
 Remove the PCB from an SG-90.
 Breakout the motor wires and pot wires.
 
+JST PH 1.0mm 5-pin connector `BM05B-SRSS-TB`
 
+
+image::board-front.png[]
+
+image::board-back.png[]
