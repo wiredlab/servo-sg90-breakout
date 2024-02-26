@@ -27,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#include production files
+!jlcpcb/production_files/*.csv
