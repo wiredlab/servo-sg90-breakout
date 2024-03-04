@@ -2,6 +2,11 @@
 stolen from an SG90 servo
 
 
+== TODO
+
+* [ ] Check pot polarity against labels and rotation.
+* [ ] Check motor polarity against labels and rotation.
+
 
 == SG-90 modification
 
