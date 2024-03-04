@@ -1,2 +1,4 @@
 Comment,Designator,Footprint,LCSC
-Conn_01x05_MountingPin,J2,JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical,C160391
+Conn_01x05_MountingPin,J3,JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal,C189896
+Motor_DC,M1,sg90_motor,
+pot,J1,PinHeader_1x03_P2.54mm_Vertical,
