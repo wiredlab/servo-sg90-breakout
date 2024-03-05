@@ -175,7 +175,7 @@
     (property "ki_description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/44204a53-cc26-4598-9417-70eca765f80c")
-    (attr smd exclude_from_pos_files exclude_from_bom)
+    (attr smd)
     (fp_text reference "J2" (at 0 -3.3 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85c75550-f35e-4874-8a12-0329e0e10c7b)
@@ -336,9 +336,9 @@
       (net 4 "/motn") (pinfunction "Pin_4") (pintype "passive") (tstamp 77cbdc25-5188-4390-86a9-cd78f9ac5155))
     (pad "5" smd roundrect (at 2 2 270) (size 0.6 1.55) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "/motp") (pinfunction "Pin_5") (pintype "passive") (tstamp d1264de5-9ee9-4166-80b9-70e329bc71c6))
-    (pad "MP" smd roundrect (at -3.3 -1.875 270) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.208333)
+    (pad "MP" smd roundrect (at -3.3 -1.875 270) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2083333333)
       (net 3 "GND") (pinfunction "MountPin") (pintype "passive") (tstamp 0ec39174-4ff6-4e86-8e88-501553a16df3))
-    (pad "MP" smd roundrect (at 3.3 -1.875 270) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.208333)
+    (pad "MP" smd roundrect (at 3.3 -1.875 270) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2083333333)
       (net 3 "GND") (pinfunction "MountPin") (pintype "passive") (tstamp 14c72012-ec2d-422f-aee6-5095123ef510))
     (model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -366,6 +366,9 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 7bed5faa-bc4c-48c3-8e73-5a079a7c5108))
+  (gr_text "DJW 2024" (at 113.6 95.3 90) (layer "B.SilkS") (tstamp 0ec89938-3e2f-40dc-82d2-d9d9483e5e69)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "Valpo ECE" (at 106.2 95.3 90) (layer "B.SilkS") (tstamp 26bec36f-0c62-4a41-96b6-0711c8ac883c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
