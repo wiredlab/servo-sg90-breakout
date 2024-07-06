@@ -1,5 +1,9 @@
 = (Re)Build a servo from parts
-stolen from an SG90 servo
+from an SG-90 servo
+
+*Migrated to GitLab: https://gitlab.com/wiredlab/sg90-servo-breakout[^]*
+
+
 
 
 == TODO
